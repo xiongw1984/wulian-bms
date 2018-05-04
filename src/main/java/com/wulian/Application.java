@@ -31,6 +31,7 @@ public class Application
         CcpInitService.getInstance().setSystemProperty(args);
         
         
+        
         // 加载配置文件
         Properties properties = CcpInitService.getInstance().loadProperty();
        
